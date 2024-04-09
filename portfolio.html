@@ -7,7 +7,6 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="portfolio.css" />
     <link rel="stylesheet" href="mediaquery.css" />
-    <link rel="stylesheet" href="script.js">
   </head>
   <body>
     <nav id="desktop-nav">
@@ -24,7 +23,7 @@
     <nav id="hamburger-nav">
       <div class="logo">Fedinant Shem</div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+        <div class="hamburger-icon" onclick="togglemenu()">
           <span></span>
           <span></span>
           <span></span>
@@ -37,5 +36,20 @@
         </div>
       </div>
     </nav>
+    <script src="script.js"></script>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Fedinant Shem">
+      </div>
+      <div class="section__text"></div>
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="tittle">Fedinant Shem</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2"
+        onclick="window.open('./assets/resume-example.pdf')"
+        >download button</button>
+      </div>
+    </section>
 </body>
 </html>
